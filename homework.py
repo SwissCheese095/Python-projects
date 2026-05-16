@@ -1,0 +1,10 @@
+with open('names.txt', 'w') as file:
+    name1 = input("Enter the first name: ")
+    name2 = input("Enter the second name: ")
+    name3 = input("Enter the third name: ")
+    age1 = input("Enter the age of the first person: ")
+    age2 = input("Enter the age of the second person: ")
+    age3 = input("Enter the age of the third person: ")
+    file.write("Name: " + name1 + ", Age: " + age1 + "\n")
+    file.write("Name: " + name2 + ", Age: " + age2 + "\n")
+    file.write("Name: " + name3 + ", Age: " + age3 + "\n")
